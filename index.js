@@ -25,8 +25,16 @@
 // changes to your forked repo and submit a pull request.
 // Alternatively send an email with your solution to boldireg@tcd.ie
 
+
+
+
 function unluckyDays (year) {
-  // your code here
+     if (year %5 < 4) return year %5
+     return (year %5)/2;
+      
+      
+    
+  
 }
 
 module.exports = unluckyDays;
